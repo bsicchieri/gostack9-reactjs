@@ -63,13 +63,13 @@ export default class Main extends Component {
       <Container>
         <h1>
           <FaGithubAlt />
-          Repositórios
+          Repositories
         </h1>
 
         <Form onSubmit={this.handleSubmit}>
           <input
             type="text"
-            placeholder="Adicionar repositório"
+            placeholder="Add repository"
             value={newRepo}
             onChange={this.handleInputChange}
           />
@@ -88,7 +88,7 @@ export default class Main extends Component {
             <li key={repository.name}>
               <span>{repository.name}</span>
               <Link to={`/repository/${encodeURIComponent(repository.name)}`}>
-                Detalhes
+                Details
               </Link>
             </li>
           ))}
