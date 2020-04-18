@@ -6,7 +6,7 @@
  Module and Challenge 5: First project with ReactJS
 </h3>
 
-<blockquote align="center">Developed during Rocketseat GoStack9 Bootcamp</blockquote>
+<blockquote align="center">Developed during Rocketseat's GoStack9 Bootcamp</blockquote>
 
 ## About
 Application that uses the GitHub API to display repositories.
